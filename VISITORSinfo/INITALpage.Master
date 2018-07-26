@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="INITALpage.master.cs" Inherits="VISITORSinfo.INITALpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style4 {
+            height: 162px;
+        }
+        .auto-style7 {
+            width: 100%;
+            height: 153px;
+        }
+        .auto-style8 {
+            width: 560px;
+        }
+        .auto-style9 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        .auto-style10 {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="auto-style4">
+        
+        <table class="auto-style7">
+            <tr>
+                <td class="auto-style8" rowspan="2">
+                    <asp:Image ID="Image1" runat="server" Height="155px" ImageUrl="~/image11/Sunrise-Valley-Science-and-Technology-Park-logo-2.png" Width="554px" />
+                </td>
+                <td class="auto-style9">
+                    <h4 class="auto-style10">Visitors-in and Visitors-out Information</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button1" runat="server"  CausesValidation="false" OnClick="Button1_Click" Text="BACK" />
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
